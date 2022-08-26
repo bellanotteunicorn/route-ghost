@@ -1,0 +1,14 @@
+routes:
+
+collections:
+  /anime/:
+    permalink: /anime/{slug}/
+    template: lolinet
+    filter: tag:anime
+  /:
+    permalink: /{slug}/
+    template: index
+
+taxonomies:
+  tag: /tag/{slug}/
+  author: /author/{slug}/
